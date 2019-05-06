@@ -1,0 +1,39 @@
+主要添加的功能：
+1、智能体死亡退出
+2、训练中当所有蓝方死亡后，开始下一轮实验
+3、场景是3v3的
+4、训练时每隔一定训练次数输出胜率
+5、蓝方随机运功
+
+在openai-maddpg/maddpg/experiments目录下可运行测试用例：
+训练运行命令
+python3 train.py --scenario competition_3v3 --save-dir /home/liyuan/pythonCode/openai-maddpg/maddpg/experiments/test
+
+测试运行命令
+python3 train.py --scenario competition_3v3 --load-dir /home/liyuan/pythonCode/openai-maddpg/maddpg/experiments/test --display
+
+
+3v3 初步成功版本
+存在的问题：红方在两个蓝方之间权衡
+
+V4.0
+蓝方采用MADDPG训练，目标是不出边界
+红方采用MADDPG训练，能够很好的抓住蓝方
+2V2
+
+v5.0
+增加观察状态量
+3v3 对抗规则胜率80%
+
+V6.0
+蓝方加载红方模型
+训练红方对抗
+
+结果可以完胜规则和新的蓝方
+
+
+V7.0
+更正攻击角度没有加绝对值的bug
+红方多了一个lock_time
+
+

@@ -1,0 +1,6 @@
+__pycache__/
+*.egg-info/
+*.pyc
+.vscode/settings.json
+multiagent/.DS_Store
+.DS_Store

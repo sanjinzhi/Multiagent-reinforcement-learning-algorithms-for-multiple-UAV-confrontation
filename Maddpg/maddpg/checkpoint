@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/airc/python_code/openai-maddpg/maddpg/experiments"
+all_model_checkpoint_paths: "/home/airc/python_code/openai-maddpg/maddpg/experiments"
