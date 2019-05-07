@@ -1,2 +1,0 @@
-model_checkpoint_path: "/home/user13/openai-maddpg/maddpg/experiments/test"
-all_model_checkpoint_paths: "/home/user13/openai-maddpg/maddpg/experiments/test"
