@@ -1,4 +1,4 @@
-# multiagent-confrontation
+# Multiagent reinforcement learning algorithms for multiple-UAV confrontation
 This is the source code of "Efficient training techniques for multi-agent reinforcement learning in combatant tasks", 
 we construct a multi-agent confrontation environment originated from a combatant scenario of multiple unman aerial vehicles. 
 To begin with, we consider to solve this confrontation problem with two types of MARL algorithms. 
